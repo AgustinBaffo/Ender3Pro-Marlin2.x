@@ -16,5 +16,5 @@ I am currently using Marlin 2.1.2 firmware. Marlin versions and their default co
 
 ## BLTouch
 
-This configuration adds the necessary setup for the printer to work integrating a bltouch probe. Use this [site](https://3dprintscape.com/marlin-firmware-on-creality-board-complete-guide/) to configure most of the settings.
+This configuration adds the necessary setup for the printer to work integrating a BLTouch probe. I used this [site](https://3dprintscape.com/marlin-firmware-on-creality-board-complete-guide/) to configure most of the settings.
 

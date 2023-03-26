@@ -1893,8 +1893,8 @@
  */
 #define PREHEAT_BEFORE_LEVELING
 #if ENABLED(PREHEAT_BEFORE_LEVELING)
-  #define LEVELING_NOZZLE_TEMP 150   // (°C) Only applies to E0 at this time
-  #define LEVELING_BED_TEMP     80
+  #define LEVELING_NOZZLE_TEMP 100   // (°C) Only applies to E0 at this time
+  #define LEVELING_BED_TEMP     65
 #endif
 
 /**
@@ -2218,8 +2218,8 @@
 // Preheat Constants - Up to 10 are supported without changes
 //
 #define PREHEAT_1_LABEL       "PLA"
-#define PREHEAT_1_TEMP_HOTEND 200
-#define PREHEAT_1_TEMP_BED     60
+#define PREHEAT_1_TEMP_HOTEND 205
+#define PREHEAT_1_TEMP_BED     65
 #define PREHEAT_1_TEMP_CHAMBER 35
 #define PREHEAT_1_FAN_SPEED   255 // Value from 0 to 255
 

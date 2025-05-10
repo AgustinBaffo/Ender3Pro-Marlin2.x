@@ -31,6 +31,7 @@ mv Ender3Pro-Marlin2.x Marlin-bugfix-2.0.x/Marlin
 ```
 cp Marlin-bugfix-2.0.x/Marlin/extra/platformio.ini Marlin-bugfix-2.0.x/platformio.ini
 ```
-5. Open `Marlin-bugfix-2.0.x` folder from VSCode PlatformIO extension and build from VSCode.
+5. Open `Marlin-bugfix-2.0.x` folder from VSCode PlatformIO extension and build from VSCode (usually with the ✅ icon).
+6. You will find the binary in `Marlin-bugfix-2.0.x/.pio/build/STM32F103RE_creality/firmware-20250510-161630.bin`
 
 For mor info see reference guides from point 1 and 2.

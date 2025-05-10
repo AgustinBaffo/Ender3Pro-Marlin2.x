@@ -18,3 +18,13 @@ I am currently using Marlin 2.1.2 firmware. Marlin versions and their default co
 
 This configuration adds the necessary setup for the printer to work integrating a BLTouch probe. I used this [site](https://3dprintscape.com/marlin-firmware-on-creality-board-complete-guide/) to configure most of the settings.
 
+## Quick build
+1. Install VSCode and PlatformIO and Auto Build Marlin extensions (see [this reference](https://automatedhome.party/2020/05/08/compiling-marlin-firmware-is-easy-dont-be-afraid-to-do-it/))
+2. Download from [bugfix-2.0.x.zip](https://marlinfw.org/meta/download/) (see [this referece](https://3dprintscape.com/marlin-firmware-on-creality-board-complete-guide/)).
+3. Clone this repository: `git clone git@github.com:AgustinBaffo/Ender3Pro-Marlin2.x.git`.
+4. Replace the content of `Marlin` folder from `bugfix-2.0.x.zip` with this repository.
+```
+rm -rf Marlin-bugfix-2.0.x/Marlin
+mv Ender3Pro-Marlin2.x Marlin-bugfix-2.0.x/Marlin
+```
+5. Open `Marlin-bugfix-2.0.x` folder from VSCode PlatformIO extension and continue with [this guide](https://automatedhome.party/2020/05/08/compiling-marlin-firmware-is-easy-dont-be-afraid-to-do-it/).

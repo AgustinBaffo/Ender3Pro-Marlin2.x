@@ -31,4 +31,6 @@ mv Ender3Pro-Marlin2.x Marlin-bugfix-2.0.x/Marlin
 ```
 cp Marlin-bugfix-2.0.x/Marlin/extra/platformio.ini Marlin-bugfix-2.0.x/platformio.ini
 ```
-5. Open `Marlin-bugfix-2.0.x` folder from VSCode PlatformIO extension and continue with [this guide]([https://automatedhome.party/2020/05/08/compiling-marlin-firmware-is-easy-dont-be-afraid-to-do-it/](https://3dprintscape.com/marlin-firmware-on-creality-board-complete-guide/)).
+5. Open `Marlin-bugfix-2.0.x` folder from VSCode PlatformIO extension and build from VSCode.
+
+For mor info see reference guides from point 1 and 2.

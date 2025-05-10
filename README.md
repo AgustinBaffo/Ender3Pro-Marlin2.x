@@ -27,4 +27,8 @@ This configuration adds the necessary setup for the printer to work integrating 
 rm -rf Marlin-bugfix-2.0.x/Marlin
 mv Ender3Pro-Marlin2.x Marlin-bugfix-2.0.x/Marlin
 ```
-5. Open `Marlin-bugfix-2.0.x` folder from VSCode PlatformIO extension and continue with [this guide](https://automatedhome.party/2020/05/08/compiling-marlin-firmware-is-easy-dont-be-afraid-to-do-it/).
+6. Replace `Marlin-bugfix-2.0.x/platformio.ini` with `Marlin-bugfix-2.0.x/Marlin/extra/platformio.ini`
+```
+cp Marlin-bugfix-2.0.x/Marlin/extra/platformio.ini Marlin-bugfix-2.0.x/platformio.ini
+```
+5. Open `Marlin-bugfix-2.0.x` folder from VSCode PlatformIO extension and continue with [this guide]([https://automatedhome.party/2020/05/08/compiling-marlin-firmware-is-easy-dont-be-afraid-to-do-it/](https://3dprintscape.com/marlin-firmware-on-creality-board-complete-guide/)).
